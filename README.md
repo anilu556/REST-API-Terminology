@@ -57,11 +57,11 @@ Write what are their meaning.
 
 |Group|Description  |
 |-----|-------------|
-|1XX| |Informational|
-|2XX| |Success      |
-|3XX| |Redirection  |
-|4XX| |Client Error |
-|5XX| |Server Error |
+|1XX  |Informational|
+|2XX  |Success      |
+|3XX  |Redirection  |
+|4XX  |Client Error |
+|5XX  |Server Error |
 
 **8. HTTP Status Codes and Their Related Interpretation**
 
@@ -69,16 +69,16 @@ There are the most common status codes in HTTP responses. Please, fill with the 
 
 |Status Code|Meaning              |
 |-----------|---------------------|
-|200|       |Ok                   |
-|201|       |Created              |
-|204|       |No content           |
-|301|       |Moved permanently    |
-|400|       |Bad request          |
-|401|       |Unauthorized         |
-|403|       |Forbidden            |
-|404|       |Not found            |
-|405|       |Method not allowed   |
-|500|       |Internal Server Error|
+|200        |Ok                   |
+|201        |Created              |
+|204        |No content           |
+|301        |Moved permanently    |
+|400        |Bad request          |
+|401        |Unauthorized         |
+|403        |Forbidden            |
+|404        |Not found            |
+|405        |Method not allowed   |
+|500        |Internal Server Error|
 
 ###### [To see the full list of HTTP status codes and their meaning, please refer to the RFC of HTTP 1.1](http://tools.ietf.org/html/rfc7231#section-6)
 
