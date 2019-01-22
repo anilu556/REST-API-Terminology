@@ -101,15 +101,15 @@ To solve this problem, you can apply the REST style to the endpoints, and thanks
 
 |Old Style                 |REST Style              |
 |--------------------------|------------------------|
-|`/getAllBooks`            |  /get/getAllBooks      |    
-|`/submitNewBook`          |  /post/Books           |
-|`/updateAuthor`           |  /put/authors/:id      |
-|`/getBooksAuthors`        |  /get/books/:id/authors|
-|`/getNumberOfBooksOnStock`|  /get/books/           |
-|`/addNewImageToBook`      |  /post/books/:id/image |
-|`/getBooksImages`         |  /get/books/images     |
-|`/addCoverImage`          |  /post/books/:id/cover |
-|`/listBookCovers`         |  /get/books/:id/cover  |
+|`/getAllBooks`            |  GET /Books            |    
+|`/submitNewBook`          |  POST /Books           |
+|`/updateAuthor`           |  PUT /authors/:id      |
+|`/getBooksAuthors`        |  GET /books/:id/authors|
+|`/getNumberOfBooksOnStock`|  GET /books/           |
+|`/addNewImageToBook`      |  POST /books/:id/image |
+|`/getBooksImages`         |  GET /books/images     |
+|`/addCoverImage`          |  POST /books/:id/cover |
+|`/listBookCovers`         |  GET /books/:id/cover  |
 
 **12. What JSON does it mean?**
 
