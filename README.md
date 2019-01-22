@@ -91,7 +91,7 @@ _meant to list the books in a bookstore_
 
 + `GET /books/action1`
 
-Is no describing what it is
+Is not describing what it is
 
 **11. Uniform Interface**
 
@@ -101,15 +101,15 @@ To solve this problem, you can apply the REST style to the endpoints, and thanks
 
 |Old Style                 |REST Style              |
 |--------------------------|------------------------|
-|`/getAllBooks`            |  GET /Books            |    
-|`/submitNewBook`          |  POST /Books           |
+|`/getAllBooks`            |  GET /books            |    
+|`/submitNewBook`          |  POST /books           |
 |`/updateAuthor`           |  PUT /authors/:id      |
 |`/getBooksAuthors`        |  GET /books/:id/authors|
 |`/getNumberOfBooksOnStock`|  GET /books/           |
-|`/addNewImageToBook`      |  POST /books/:id/image |
-|`/getBooksImages`         |  GET /books/images     |
+|`/addNewImageToBook`      |  POST /books/:id/cover |
+|`/getBooksImages`         |  GET /books/:id/cover  |
 |`/addCoverImage`          |  POST /books/:id/cover |
-|`/listBookCovers`         |  GET /books/:id/cover  |
+|`/listBookCovers`         |  GET /books/:id        |
 
 **12. What JSON does it mean?**
 
@@ -120,7 +120,7 @@ JavaScript Object Notation
 Make a `curl` request to _GitHub API_
 Request information by an API
 ```sh
-$ curl https://api.github.com/
+$ curl GET https://api.github.com/
 ```
 According to the responded request, answer what does it mean the next parts from the handler:
 
